@@ -10,6 +10,10 @@ const printProfileData = profileDataArr => {
 
   // Is the same as this...
   profileDataArr.forEach(profileItem => console.log(profileItem));
+
+  console.log('================');
+
+  console.log(process.argv);
 };
 
 printProfileData(profileDataArgs);
